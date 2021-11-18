@@ -1,0 +1,107 @@
+
+body {
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+	background-attachment: fixed;	
+	background-size: cover;
+	}
+
+.form1{
+    border-radius: 20%;
+    }
+
+    .form2{
+      width: 100%;
+      max-width: 600px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-radius: 10px;
+        }
+.form {
+    width: 100%;
+    max-width: 600px;
+    background: #e6e6e6;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+  }
+  
+  .form input {
+    width: 90%;
+    height: 30px;
+    margin: 0.5rem;
+  }
+  
+  .form button {
+    padding: 0.5em 1em;
+    border: none;
+    background: rgb(100, 200, 255);
+    cursor: pointer;
+  }
+  
+  .form2 button {
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+  }
+
+  input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: ghostwhite;
+    outline: none;
+    resize: none;
+    border: 0;
+    border-radius: 10px;
+    font-family: "Montserrat", sans-serif;
+    transition: all 0.3s;
+    border-bottom: 2px solid #bebed2;
+  }
+  input:focus {
+    border-bottom: 2px solid #78788c;
+  }
+  p:before {
+    content: attr(type);
+    display: block;
+    margin: 28px 0 0;
+    font-size: 14px;
+    color: #5a5a5a;
+  }
+  .button1 {
+    float: right;
+    padding: 8px 12px;
+    margin: 8px 0 0;
+    font-family: "Montserrat", sans-serif;
+    border: 2px solid #5a5a7c;
+    background: 0;
+    color: #5a5a6e;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  .button1:hover {
+    background: #1919b1;
+    color: #fff;
+  }
+  
+  .button2:hover {
+    background: #ff0202;
+    color: #fff;
+  }
+
+  textarea{
+    height: 10em;
+    width: 600px;
+  }
+
+  h3{
+      background: red;
+      color: seashell;
+  }

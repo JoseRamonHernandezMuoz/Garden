@@ -1,0 +1,144 @@
+Nombre de la planta:
+BUGANVILLA
+
+Altura:
+8 metros
+
+Florece en:
+Verano
+
+Imagen:
+buganvilla
+
+Precio:
+78
+
+Informacion:
+Una de nuestras plantas favoritas del verano es la buganvilla. La intensidad del color de sus flores rosas o violetas, unido al hecho de que se trata de una planta trepadora que adora el sol, hacen de la buganvilla el complemento perfecto de porches y terrazas
+
+Cuidados:
+No tolera el frio
+
+Necesidad del sol:
+Si
+
+Necesidad del suelo:
+No
+
+-----------------------------------------------------------------------------------------------------------------
+
+Nombre de la planta:
+HORTENSIAS
+
+Altura:
+30 cm
+
+Florece en:
+Todo el año
+
+Imagen:
+Hortensias
+
+Precio:
+120
+
+Informacion:
+Las hortensias son, probablemente, una de las plantas más agradecidas que existen. Además de ser muy fáciles de cultivar -tanto en maceta como en suelo-, cuando florecen se convierten en un auténtico espectáculo visual.
+
+Cuidados:
+No tolera el frio
+
+Necesidad del sol:
+No
+
+Necesidad del suelo:
+Si
+
+-----------------------------------------------------------------------------------------------------------------
+
+Nombre de la planta:
+LAVANDA
+
+Altura:
+30 cm
+
+Florece en:
+Todo el año
+
+Imagen:
+Lavanda
+
+Precio:
+50
+
+Informacion:
+Su embriagante aroma es capaz de relajar hasta la mente más estresada, pero las bondades de la lavanda van más allá. Esta planta aromática con flores que oscilan entre el azul y el violeta, es ideal para jardines y patios soleados, ya que se nutre del astro rey.
+
+Cuidados:
+Agua constantemente
+
+Necesidad del sol:
+Si
+
+Necesidad del suelo:
+Si
+
+-----------------------------------------------------------------------------------------------------------------
+
+Nombre de la planta:
+HIEDRA
+
+Altura:
+8 metros
+
+Florece en:
+Verano
+
+Imagen:
+hiedra
+
+Precio:
+30
+
+Informacion:
+Entre las plantas de exterior para terrazas, patios y jardines, no puede faltar la hiedra. Esta planta trepadora que solemos encontrar habitando en las fachadas de piedra de las casas de campo adora la luz del sol, pero también crece sin problemas en ambientes sombreados.
+
+Cuidados:
+Agua constantemente
+
+Necesidad del sol:
+Si
+
+Necesidad del suelo:
+Si
+
+-----------------------------------------------------------------------------------------------------------------
+
+Nombre de la planta:
+ROSALES
+
+Altura:
+2 metros
+
+Florece en:
+Todo el año
+
+Imagen:
+rosales
+
+Precio:
+68
+
+Informacion:
+Dentro de los rosales existe todo un mundo de posibilidades, pero si quieres dejar a todos con la boca abierta, elige un rosal trepador para darle vida a tu patio o jardín.
+
+Cuidados:
+Agua constantemente
+
+Necesidad del sol:
+Si
+
+Necesidad del suelo:
+No
+
+-----------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/css.css">  
+    <title>Index-Login</title>
+</head>
+<body>
+  <script>
+    //<![CDATA[
+    function right(e) {
+        if (navigator.appName == 'Netscape' && e.which == 3) {
+            alert('Prohibido clic derecho');
+            return false;
+        } else
+        if (navigator.appName == 'Microsoft Internet Explorer' &&
+            event.button == 2) {
+            alert('Prohibido click derecho');
+            return false;
+        }
+        return true;
+    }
+    document.onmousedown = right;
+    //]]>
+    
+    document.oncontextmenu = function() {
+        return false
+    }
+</script>
+<div class="wrapper">
+    <a href="./login.php" class="close-button">
+      <div class="in">
+        <div class="close-button-block"></div>
+        <div class="close-button-block"></div>
+      </div>
+      <div class="out">
+        <div class="close-button-block"></div>
+        <div class="close-button-block"></div>
+      </div>
+    </a>
+  </div>
+<center>
+<a href="./RegistroFlower.php">
+    <button type="submit" title="Registrar Nueva Planta para catalogo" class="button1">Registrar Planta</button>
+</a>
+<a>     </a>
+<a href="./editarRegistro.php">
+    <button type="submit" title="Editar Registro de Planta para catalogo" class="button2">Editar Registro </button>
+</a>
+<br>
+<br>
+<a href="./eliminarRegistro.php">
+    <button type="submit" title="Eliminar Registros de Planta para catalogo" class="button3">Eliminar Registro</button>
+</a>
+<a href="./correos.php">
+    <button type="submit" title="Visualizar Correos enviados de 'Contáctanos'" class="button4">Bandeja de Entrada</button>
+</a>
+</center>
+</body>
+</html>

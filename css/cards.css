@@ -93,7 +93,7 @@ body {
 	position: absolute;
 	bottom: 20%;
 	left: 22.8%;
-	
+	 
 }
 /* the Button */
 .btn {
@@ -183,7 +183,7 @@ body {
     left: 0;
     top: 0;
 }
-
+ 
 .info h2 {text-align: center}
 .product-image:hover .info{transform: translateX(0);}
 
@@ -204,12 +204,14 @@ body {
     margin: 0;
 }
 
+
+
 .title{
     text-align: center;
     
 }
 
-  
+  /* Icono de cerrar */
   .close-button {
     display: block;
     width: 40px;
@@ -271,4 +273,36 @@ body {
   }
   .close-button:hover .out .close-button-block:after {
     transform: translateX(20px) translateY(20px) rotate(-45deg);
+  }
+
+
+
+
+  
+  .form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+  }
+  
+  .form input {
+    width: 90%;
+    height: 30px;
+    margin: 0.5rem;
+  }
+  
+  .form button {
+    padding: 0.5em 1em;
+    border: none;
+    background: rgb(100, 200, 255);
+    cursor: pointer;
+  }
+
+  .form1{
+    border-radius: 20%;
   }

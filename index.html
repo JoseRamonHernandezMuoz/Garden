@@ -11,6 +11,33 @@
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300;1,500;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <script>
+        //<![CDATA[
+        function right(e) {
+            if (navigator.appName == 'Netscape' && e.which == 3) {
+                alert('Prohibido clic derecho');
+                return false;
+            } else
+            if (navigator.appName == 'Microsoft Internet Explorer' &&
+                event.button == 2) {
+                alert('Prohibido click derecho');
+                return false;
+            }
+            return true;
+        }
+        document.onmousedown = right;
+        //]]>
+        
+        document.oncontextmenu = function() {
+            return false
+        }
+    </script>
+    <!-- <div class="presupuesto">
+        <p>Presupuesto</p>
+        <a href="#">
+            <button>Contactanos!</button>
+        </a>
+        </div> -->
     <header class="header" id="inicio">
         <img src="./img/menu.svg" alt="" id="menu" class="menu">
         <nav class="menu-navegacion">
@@ -19,7 +46,7 @@
             <a href="#galeria">Galeria</a>
             <a href="#experts">Expertos</a>
             <a href="#contacto">Contacto</a>
-            <a href="./plantas.html">Más...</a>
+            <a href="./plantas.php">Más...</a>
         </nav>
         <div class="contenedor head">
             <h1 class="titulo">Convertimos tus sueños en realidad</h1>
@@ -30,7 +57,7 @@
         <section class="contenedor" id="servicio">
             <h2 class="subtitulo">Servicios</h2>
             <div class="contenedor-servicio">
-                <img src="./img/garden.jpg" alt="">
+                <img src="./img/vectorial2.jpg" alt="" >
                 <div class="checklist-servicio">
                     <div class="service">
                         <h3 class="n-service"><span class="number">1 </span>Eliminar las malas hierbas</h3>
@@ -104,27 +131,36 @@
     <footer id="contacto">
         <div class="contenedor footer-content">
             <div class="contact-us">
+                <a style="text-decoration:none" href="login.php">
+                    <font color="white">
                 <h2 class="brand">Floreria Huamantla</h2>
                 <p>Somos expertos en la creación de tus sueños</p>
+                </font>
+            </a>
             </div>
             <div class="social-media">
-                <a href="" class="social-media-icon">
+                <!-- <a href="./contacto.php" class="social-media-icon">
                     <i class='bx bxl-facebook'></i>
                 </a>
-                <a href="" class="social-media-icon">
+                <a href="./contacto.php" class="social-media-icon">
                     <i class='bx bxl-twitter' ></i>
                 </a>
-                <a href="" class="social-media-icon">
+                <a href="./contacto.php" class="social-media-icon">
                     <i class='bx bxl-whatsapp' ></i>
+                </a> -->
+               
+                <a href="./contacto.php" class="social-media-icon" title="Contáctanos">
+                    <i class='bx bxl-telegram bx-tada' ></i>
+                   
                 </a>
-                <a href="" class="social-media-icon">
-                    <i class='bx bxl-instagram' ></i>
-                </a>
+                
             </div>
         </div>
         <div class="line"></div>
     </footer>
+    
     <script src="./js/menu.js"></script>
     <script src="./js/lightbox.js"></script>
+
 </body>
 </html>
